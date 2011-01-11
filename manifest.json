@@ -1,0 +1,9 @@
+{
+	"name": "MyPlate",
+	"version": "1.0",
+	"description": "Fixes issues in MyPlate",
+	"content_scripts": [ {
+		"matches": ["http://livestrong.com/myplate/*", "http://www.livestrong.com/myplate/*"],
+		"js": ["jquery.js", "myplate.js"]
+	}]
+}
